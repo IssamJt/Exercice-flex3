@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    border-radius: 1%;
+}
+
+body {
+    padding: 1%;
+}
+
+header, footer {
+    background-color: blue;
+    height: 8vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 75vh;
+    margin: 0.5% 0;
+}
+
+
+article, aside {
+    background-color: rgb(241, 141, 79);
+    width: 15%;
+    
+}
+
+article{
+    padding-left: 5px;
+}
+
+aside{
+    padding-right: 5px;
+}
+
+nav {
+    background-color: rgb(79, 144, 235);
+    width: 68%;
+}
